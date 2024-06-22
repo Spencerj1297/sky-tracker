@@ -40,7 +40,7 @@ const Logs: FC = () => {
       key="logForm"
       //   animate={open ? "open" : "closed"}
       variants={variants}
-      className="min-h-screen bg-gradient-custom p-44 "
+      className="p-44 "
     >
       <div className="flex flex-col gap-8 max-h-[600px] overflow-auto p-8 bg-white bg-opacity-50">
         {getFlights()}

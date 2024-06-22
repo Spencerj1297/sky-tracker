@@ -34,7 +34,7 @@ const LogBook = () => {
 
   return (
     <>
-      <motion.section className="flex justify-center items-center min-h-screen logbook-container">
+      <motion.section className="flex justify-center items-center min-h-screen logbook-container z-10">
         <AnimatePresence>
           {!showForm && (
             <motion.div
