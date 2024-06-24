@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Layout: FC<Props> = ({ children }) => {
-  return <section className="z-0 bg-gradient-custom min-h-screen pt-32">
+  return <section className="z-0 bg-gradient-custom min-h-screen">
     <Outlet />
   </section>;
 };
