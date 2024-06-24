@@ -32,7 +32,7 @@ const AddFlight: FC<Props> = ({setOpen, open}) => {
       key="logForm"
       animate={open ? "open" : "closed"}
       variants={variants}
-      className="absolute inset-0 flex items-center justify-center"
+      className="absolute inset-0 center"
     >
       <div className="w-full max-w-lg bg-white shadow-outline rounded-lg px-8 pt-6 pb-8 mb-4">
         <button

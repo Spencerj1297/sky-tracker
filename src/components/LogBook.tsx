@@ -34,7 +34,7 @@ const LogBook = () => {
 
   return (
     <>
-      <motion.section className="flex justify-center items-center min-h-screen logbook-container z-10">
+      <motion.section className="center min-h-screen logbook-container z-10">
         <AnimatePresence>
           {!showForm && (
             <motion.div
@@ -49,11 +49,11 @@ const LogBook = () => {
                   AVIATOR FLIGHT <br />
                   LOG BOOK
                 </h1>
-                <div className="w-full flex justify-center items-center"></div>
+                <div className="w-full center"></div>
                 <p className="w-full text-4xl font-bold text-gold text-center">
                   Future Pilot Name
                 </p>
-                <div className="flex gap-8 flex-col justify-center items-center">
+                <div className="center gap-8 flex-col">
                   <button
                     onClick={handleAddFlight}
                     className="border border-gold border-2 text-gold px-8 py-2 flex gap-2 rounded-md hover:bg-gold hover:text-logBlue font-bold"
